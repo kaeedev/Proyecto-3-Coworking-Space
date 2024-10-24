@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  margin-right: 200px;
+  padding: 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav img {
+  margin-left: 160px;
+  width: 225px;
+}
+nav .navegacion {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+  margin-right: -200px;
+  align-items: center;
+}
+nav .navegacion a {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #313131;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+nav .navegacion .important {
+  color: #9B9A78;
+}
+nav .navegacion .not-important {
+  font-family: "Nunito Sans";
+}
+nav .registro {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav .registro .enlace {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #9B9A78;
+  font-family: "Nunito Sans";
+}
+nav .registro .boton {
+  font-size: 18px;
+  font-weight: 400px;
+  color: white;
+  text-decoration: none;
+  background-color: #9B9A78;
+  font-family: "Poppins";
+  padding: 10px;
+}
+nav .search {
+  width: 32px;
+  margin-right: 30px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 588px;
+  margin-left: 400px;
+  margin-top: 50px;
+  margin-right: 160px;
+  background-image: url(/img/Placeholder.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top left;
+}
+.title div {
+  width: 816px;
+  margin-left: auto;
+  height: 419px;
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.title h1 {
+  font-family: "Playfar Display";
+  font-size: 56px;
+  font-weight: 700px;
+  color: #313131;
+  line-height: 72px;
+  width: 60%;
+}
+.title img {
+  width: 150px;
+  height: 8px;
+  margin-top: 39px;
+}
+.title p {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400px;
+  color: #909090;
+}
+
+.checks {
+  width: 428px;
+  height: 78px;
+  margin-left: 750px;
+  margin-top: -80px;
+  margin-bottom: 90px;
+}
+.checks ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 20px;
+  align-items: center;
+  list-style-image: url(../img/Check.svg);
+}
+.checks ul li {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #313131;
+}
+.checks .mover {
+  list-style-position: inside;
+}
+
+.articles {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+.articles .location, .articles .rooms, .articles .internet {
+  width: 300px;
+  font-family: "Poppins";
+}
+.articles .location p {
+  margin-top: 15px;
+  color: #909090;
+}
+.articles .rooms p {
+  margin-top: 15px;
+  color: #909090;
+}
+.articles .internet p {
+  margin-top: 15px;
+  color: #909090;
+}
+
+/*# sourceMappingURL=style.css.map */
