@@ -64,7 +64,7 @@ The objective of this project is to apply what I've learned in HTML and CSS, usi
 
 <img src="capture/captura3.png" width=1200>
 
-🛠️ Project Structure
+## 🛠️ Project Structure
 
 The project is organized as follows:
 
